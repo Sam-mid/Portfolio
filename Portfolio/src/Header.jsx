@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import GradientTextures  from '/src/assets/img/GradientTextures.jpg';
+
 
 const Header = ({ modelPath }) => {
     const containerRef = useRef();
@@ -22,7 +24,7 @@ const Header = ({ modelPath }) => {
         // Scene
         const scene = new THREE.Scene();
         scene.background = new THREE.Color(0x222222);
-        const gradientTexture = new THREE.TextureLoader().load('/src/assets/img/GradientTextures.jpg');
+        const gradientTexture = new THREE.TextureLoader().load(GradientTextures);
         scene.background = gradientTexture;
 
         // Lichtbron
@@ -31,7 +33,7 @@ const Header = ({ modelPath }) => {
 
         // Laad het glTF-model
         const loader = new GLTFLoader();
-        loader.load("/src/assets/glb/Naam.glb", function (gltf) {
+        loader.load("Portfolio/src/assets/glb/naam.glb", function (gltf) {
             const model = gltf.scene;
             scene.add(model);
 
