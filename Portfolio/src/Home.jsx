@@ -7,6 +7,7 @@ import PlaylistName from '/src/assets/img/PlaylistName.png';
 import PhotoShop from '/src/assets/Logo\'s/PhotoShop_logo.svg';
 import Illustrator from '/src/assets/Logo\'s/Illustrator_logo.svg';
 import InDesign from '/src/assets/Logo\'s/InDesign_logo.svg';
+import XDlogo from '/src/assets/Logo\'s/Xd_logo.svg';
 import Blender from '/src/assets/Logo\'s/Blender_logo.svg';
 import Unity from '/src/assets/Logo\'s/Unity_logo.svg';
 import HTML from '/src/assets/Logo\'s/HTML_logo.svg';
@@ -78,9 +79,9 @@ const Home = () => {
                         <p className="text-xl font-bold mb-4">Ik ben bekend met:</p>
                         <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10 md:space-x-4">
                             <img className="logo mb-4 md:mb-0" src={PhotoShop} alt="Photoshop logo" title="Photoshop"/>
-                            <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo"
-                                 title="Illustrator"/>
+                            <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo" title="Illustrator"/>
                             <img className="logo mb-4 md:mb-0" src={InDesign} alt="InDesign logo" title="InDesign"/>
+                            <img className="logo mb-4 md:mb-0" src={XDlogo} alt="XD logo" title="XD"/>
                             <img className="logo mb-4 md:mb-0" src={Blender} alt="Blender logo" title="Blender"/>
                             <img className="logo mb-4 md:mb-0" src={Unity} alt="Unity logo" title="Unity"/>
                             <img className="logo mb-4 md:mb-0" src={HTML} alt="HTML logo" title="HTML"/>
