@@ -41,7 +41,7 @@ const Home = () => {
                 <div
                     className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
                     style={{width: '100%', maxWidth: '100%'}}>
-                    <div className="w-full px-4 md:w-1/2 mb-4 md:mb-0">
+                    <div className="w-full px-4 md:w-1/2 mb-4 md:mb-0 py-5">
                         <h2 className="text-3xl font-bold mb-4">Over Mij</h2>
                         <p className="text-xl mb-4">
                             Ik ben Sam Middendorp, een 22-jarige student van de studie Creative Media and Game
@@ -95,7 +95,7 @@ const Home = () => {
             </section>
 
             {/* Projecten */}
-            <section id="projects" className="flex flex-col items-center justify-center bg-blue-50 min-h-screen">
+            <section id="projects" className="flex flex-col items-center justify-center bg-blue-50 min-h-screen py-5">
                 <div className="container mx-auto px-4">
                     <div className="mb-8 text-center mb-12">
                         <h2 className="text-3xl font-bold">Mijn Projecten</h2>
