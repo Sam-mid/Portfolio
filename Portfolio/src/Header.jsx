@@ -33,7 +33,7 @@ const Header = ({ modelPath }) => {
 
         // Laad het glTF-model
         const loader = new GLTFLoader();
-        loader.load("Portfolio/src/assets/glb/naam.glb", function (gltf) {
+        loader.load("/src/assets/glb/naam.glb", function (gltf) {
             const model = gltf.scene;
             scene.add(model);
 
