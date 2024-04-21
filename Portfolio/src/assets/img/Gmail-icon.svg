@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370.1 277.63">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #31a853;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fbbc08;
+      }
+
+      .cls-3 {
+        fill: #e84336;
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        fill: #517bbd;
+      }
+
+      .cls-5 {
+        fill: #c6221f;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <path class="cls-4" d="m25.2,277.63h58.9v-143L0,71.53v180.8c0,14,11.3,25.3,25.2,25.3Z"/>
+    <path class="cls-1" d="m286,277.63h58.9c13.9,0,25.2-11.3,25.2-25.2V71.63l-84.1,63.1v142.9Z"/>
+    <path class="cls-2" d="m286,25.33v109.3l84.1-63.1v-33.6c0-31.2-35.6-49-60.6-30.3l-23.5,17.7Z"/>
+    <path class="cls-3" d="m84.1,134.63V25.33l100.9,75.7,100.9-75.7v109.3l-100.9,75.7-100.9-75.7Z"/>
+    <path class="cls-5" d="m0,37.93v33.6l84.1,63.1V25.33L60.5,7.63C35.6-11.07,0,6.83,0,37.93Z"/>
+  </g>
+</svg>

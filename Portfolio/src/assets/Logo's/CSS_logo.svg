@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 117.66 164.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_2-2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Naamloos_verloop_2);
+      }
+
+      .cls-3 {
+        fill: #2062af;
+      }
+
+      .cls-4 {
+        isolation: isolate;
+        opacity: .05;
+      }
+
+      .cls-6 {
+        fill: #3c9cd7;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-8 {
+        fill: url(#Naamloos_verloop_4-2);
+      }
+
+      .cls-9 {
+        fill: url(#Naamloos_verloop_4);
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_2" data-name="Naamloos verloop 2" x1="-1139.47" y1="-1080.26" x2="-1139.47" y2="-1086.37" gradientTransform="translate(5330.87 5114.7) scale(4.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".39" stop-color="#d1d3d4" stop-opacity="0"/>
+      <stop offset="1" stop-color="#d1d3d4"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_2-2" data-name="Naamloos verloop 2" x1="-1131.84" y1="-1083.3" x2="-1131.84" y2="-1089.65" xlink:href="#Naamloos_verloop_2"/>
+    <linearGradient id="Naamloos_verloop_4" data-name="Naamloos verloop 4" x1="-1143.14" y1="-1077.53" x2="-1128.47" y2="-1077.53" gradientTransform="translate(5330.87 5114.7) scale(4.64)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e8e7e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_4-2" data-name="Naamloos verloop 4" x1="-1143.82" y1="-1088.1" x2="-1127.89" y2="-1088.1" xlink:href="#Naamloos_verloop_4"/>
+  </defs>
+  <g id="Laag_1-2" data-name="Laag 1">
+    <path class="cls-3" d="m106.63,151.95l-47.8,12.87-47.8-12.87L0,32.45h117.66l-11.03,119.5Z"/>
+    <path class="cls-6" d="m58.83,42.13v112.42l.11.03,38.68-10.42,8.93-102.04h-47.72Z"/>
+    <path class="cls-5" d="m31.7,14.9v-7.11h10.38V0h-18.16v22h18.16v-7.1h-10.38Zm29.04-7.11h7.25V0h-18.16v7.78c2.43,2.43,3.7,3.59,7.21,7.11-2.05,0-7.21,0-7.21,0v7.1h18.16v-7.1l-7.25-7.11h0Zm25.74,0h7.25V0h-18.16v7.78c2.43,2.43,3.7,3.59,7.21,7.11-2.05,0-7.21,0-7.21,0v7.1h18.16v-7.1l-7.25-7.11h0Z"/>
+    <path class="cls-7" d="m58.79,72.01l-34.21,14.25,1.13,14.11,33.08-14.14,35.19-15.04,1.46-14.43-36.64,15.26h0Z"/>
+    <path class="cls-2" d="m24.58,86.26l1.13,14.11,33.08-14.14v-14.21l-34.21,14.25Z"/>
+    <path class="cls-1" d="m95.43,56.75l-36.64,15.26v14.21l35.19-15.04,1.46-14.43Z"/>
+    <path class="cls-9" d="m24.63,86.26l1.13,14.11,50.75.16-1.14,18.81-16.7,4.7-16.05-4.05-.97-11.67h-14.92l1.95,22.54,30.16,8.92,30-8.76,3.89-44.75H24.63Z"/>
+    <path class="cls-4" d="m58.79,86.26H24.58l1.13,14.11,33.08.11v-14.21h0Zm0,37.73l-.16.05-16.05-4.05-.97-11.67h-14.92l1.95,22.54,30.16,8.92v-15.77Z"/>
+    <path class="cls-8" d="m21.49,56.75h73.94l-1.46,14.43H23.28l-1.78-14.43h0Z"/>
+    <path class="cls-4" d="m58.79,56.75H21.49l1.78,14.43h35.51v-14.43h0Z"/>
+  </g>
+</svg>
