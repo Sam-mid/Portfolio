@@ -37,8 +37,7 @@ const Home = () => {
     return (
         <div>
             {/* Over mij */}
-            <section id="aboutme"
-                     className="flex flex-col md:flex-row justify-center items-center bg-green-50 min-h-screen md:min-h-auto">
+            <section id="aboutme" className="flex flex-col md:flex-row justify-center items-center bg-green-50 min-h-screen md:min-h-auto">
                 <div
                     className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
                     style={{width: '100%', maxWidth: '100%'}}>
@@ -71,10 +70,11 @@ const Home = () => {
             <section id="experience" className="flex flex-col items-center justify-center bg-purple-50 min-h-screen">
                 <div className="container mx-auto px-4">
                     <div className="w-full px-4 ">
-                        <h2 className="text-3xl font-bold mb-4">Mijn ervaring</h2>
+                        <h2 className="text-3xl font-bold mb-4">Ervaring</h2>
                         <p className="text-xl mb-8">
                             Aan het eind van 2023 heb ik mijn propedeuse gehaald. Ik heb een MBO-diploma als
                             mediavormgever en 1,5 jaar ervaring als 3D designer in de VR sector.
+                            verdere informatie over mijn ervaring is te vinden op mijn <a href="https://www.linkedin.com/in/sam-middendorp-890a1720a/">LinkedIn</a>.
                         </p>
                         <p className="text-xl font-bold mb-4">Ik ben bekend met:</p>
                         <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10 md:space-x-4">
@@ -86,8 +86,7 @@ const Home = () => {
                             <img className="logo mb-4 md:mb-0" src={Unity} alt="Unity logo" title="Unity"/>
                             <img className="logo mb-4 md:mb-0" src={HTML} alt="HTML logo" title="HTML"/>
                             <img className="logo mb-4 md:mb-0" src={CSS} alt="CSS logo" title="CSS"/>
-                            <img className="logo mb-4 md:mb-0" src={JavaScript} alt="JavaScript logo"
-                                 title="JavaScript"/>
+                            <img className="logo mb-4 md:mb-0" src={JavaScript} alt="JavaScript logo" title="JavaScript"/>
                             <img className="logo mb-4 md:mb-0" src={ReactLogo} alt="React logo" title="React"/>
                             <img className="logo mb-4 md:mb-0" src={PHP} alt="PHP logo" title="PHP"/>
                         </div>
@@ -96,7 +95,7 @@ const Home = () => {
             </section>
 
             {/* Projecten */}
-            <section id="Projects" className="flex flex-col items-center justify-center bg-blue-50 min-h-screen">
+            <section id="projects" className="flex flex-col items-center justify-center bg-blue-50 min-h-screen">
                 <div className="container mx-auto px-4">
                     <div className="mb-8 text-center mb-12">
                         <h2 className="text-3xl font-bold">Mijn Projecten</h2>

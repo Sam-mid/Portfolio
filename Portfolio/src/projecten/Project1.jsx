@@ -21,7 +21,7 @@ const Project1 = ({ closeModal }) => {
                     <p className="text-lg font-bold mb-4">
                         Dit project is gemaakt met: <br/>
                     </p>
-                    <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10 md:space-x-4">
+                    <div className="flex flex-wrap items-center mt-4">
                         <img className="logo mb-4 md:mb-0" src={InDesign} alt="InDesign logo" title="InDesign"/>
                         <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo" title="Illustrator"/>
                         <img className="logo mb-4 md:mb-0" src={XDlogo} alt="XD logo" title="XD"/>

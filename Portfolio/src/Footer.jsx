@@ -5,7 +5,7 @@ import GitHub from '/src/assets/img/GitHub-icon.svg';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-700 text-white text-center py-4">
+        <footer id="contact"  className="bg-gray-700 text-white text-center px-4 py-4">
             <h2 className="text-3xl font-bold mb-4">Contact</h2>
             <p className="text-xl" >Neem gerust contact met mij op voor eventuele vragen. Ik ben op de volgende manieren bereikbaar: </p>
             <ul className="flex justify-center space-x-7 p-5">
