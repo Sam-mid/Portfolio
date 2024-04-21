@@ -36,17 +36,20 @@ const Home = () => {
     return (
         <div>
             {/* Over mij */}
-            <section id="aboutme" className="flex flex-col md:flex-row justify-center items-center bg-green-50 min-h-screen">
-                <div className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center">
-                    <div className="w-full md:w-1/2 px-4 md:mt-0 md:order-2">
+            <section id="aboutme"
+                     className="flex flex-col md:flex-row justify-center items-center bg-green-50 min-h-screen md:min-h-auto">
+                <div
+                    className="mx-auto px-4 flex flex-wrap justify-center items-center md:space-x-8 md:flex-row md:items-center"
+                    style={{width: '100%', maxWidth: '100%'}}>
+                    <div className="w-full px-4 md:w-1/2 mb-4 md:mb-0">
                         <h2 className="text-3xl font-bold mb-4">Over Mij</h2>
-                        <p className="text-xl  mb-4">
+                        <p className="text-xl mb-4">
                             Ik ben Sam Middendorp, een 22-jarige student van de studie Creative Media and Game
                             Technologies. Ik ben creatief en heb een onderzoekende houding. Vooral als het gaat om
                             nieuwe technologieën en ontwikkelingen. Daarnaast heb ik ervaring met planmatig en
                             projectmatig werken in een team.
                         </p>
-                        <p className="text-xl  mb-4">
+                        <p className="text-xl mb-4">
                             Ik ben geïnteresseerd in het volledige creatieve proces, van ontwerp tot eindproduct. Met
                             mijn achtergrond als vormgever en mijn kennis als developer breng ik een gevarieerde blik op
                             elk project.
@@ -56,11 +59,12 @@ const Home = () => {
                             ik het liefst meekijken bij zowel de creatieve als technologische kant van een project.
                         </p>
                     </div>
-                    <div className="w-full md:w-1/4 px-4 md:order-2">
-                        <img src={MijnFoto} alt="Profielfoto" className="w-full h-auto drop-shadow-2xl rounded-2xl md:max-w-md"/>
+                    <div className="w-full px-4 md:w-1/3">
+                        <img src={MijnFoto} alt="Profielfoto" className="w-full h-auto drop-shadow-2xl rounded-2xl" style={{maxWidth: '100%'}}/>
                     </div>
                 </div>
             </section>
+
 
             {/* Ervaring */}
             <section id="ervaring" className="flex flex-col items-center justify-center bg-purple-50 min-h-screen">
@@ -72,17 +76,19 @@ const Home = () => {
                             mediavormgever en 1,5 jaar ervaring als 3D designer in de VR sector.
                         </p>
                         <p className="text-xl font-bold mb-4">Ik ben bekend met:</p>
-                        <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10">
-                            <img className="logo mb-4 md:mb-0 mr-4" src={PhotoShop} alt="Photoshop logo" title="Photoshop"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={Illustrator} alt="Illustrator logo" title="Illustrator"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={InDesign} alt="InDesign logo" title="InDesign"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={Blender} alt="Blender logo" title="Blender"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={Unity} alt="Unity logo" title="Unity"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={HTML} alt="HTML logo" title="HTML"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={CSS} alt="CSS logo" title="CSS"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={JavaScript} alt="JavaScript logo" title="JavaScript"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={ReactLogo} alt="React logo" title="React"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src={PHP} alt="PHP logo" title="PHP"/>
+                        <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10 md:space-x-4">
+                            <img className="logo mb-4 md:mb-0" src={PhotoShop} alt="Photoshop logo" title="Photoshop"/>
+                            <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo"
+                                 title="Illustrator"/>
+                            <img className="logo mb-4 md:mb-0" src={InDesign} alt="InDesign logo" title="InDesign"/>
+                            <img className="logo mb-4 md:mb-0" src={Blender} alt="Blender logo" title="Blender"/>
+                            <img className="logo mb-4 md:mb-0" src={Unity} alt="Unity logo" title="Unity"/>
+                            <img className="logo mb-4 md:mb-0" src={HTML} alt="HTML logo" title="HTML"/>
+                            <img className="logo mb-4 md:mb-0" src={CSS} alt="CSS logo" title="CSS"/>
+                            <img className="logo mb-4 md:mb-0" src={JavaScript} alt="JavaScript logo"
+                                 title="JavaScript"/>
+                            <img className="logo mb-4 md:mb-0" src={ReactLogo} alt="React logo" title="React"/>
+                            <img className="logo mb-4 md:mb-0" src={PHP} alt="PHP logo" title="PHP"/>
                         </div>
                     </div>
                 </div>
@@ -96,7 +102,8 @@ const Home = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div className="rounded-2xl p-4 hover:scale-105" onClick={() => handleProjectClick('Project1')}>
-                            <h3 className="text-lg font-bold mb-2 text-center">Interactie Ontwerp voor opdrachtgever</h3>
+                            <h3 className="text-lg font-bold mb-2 text-center">Interactie Ontwerp voor
+                                opdrachtgever</h3>
                             <img src={InteractieOntwerp} alt="Interactie Ontwerp"
                                  className="w-full h-80 object-cover rounded-2xl drop-shadow-xl"/>
                         </div>
