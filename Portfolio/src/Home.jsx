@@ -67,7 +67,7 @@ const Home = () => {
 
 
             {/* Ervaring */}
-            <section id="ervaring" className="flex flex-col items-center justify-center bg-purple-50 min-h-screen">
+            <section id="experience" className="flex flex-col items-center justify-center bg-purple-50 min-h-screen">
                 <div className="container mx-auto px-4">
                     <div className="w-full px-4 ">
                         <h2 className="text-3xl font-bold mb-4">Mijn ervaring</h2>

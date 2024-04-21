@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="flex items-center">
                 <img src={logo} alt="Logo" className="h-12" />
             </div>
-            <ul className="mt-4 md:mt-0 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+            <ul className="mt-4 md:mt-0 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 items-center">
                 <li>
                     <Link to="/" className="text-black font-bold hover:text-gray-300">Home</Link>
                 </li>

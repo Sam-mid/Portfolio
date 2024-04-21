@@ -79,16 +79,19 @@ button:focus-visible {
 @media (max-width: 768px) {
   /* Voeg hier je CSS-regels toe voor de gewenste stijlen */
   #aboutme {
-    padding: 5vw;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
   }
 
-  #ervaring {
-    padding: 5vw;
+  #experience {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
     }
 
-    #projecten {
-    padding: 5vw;
-    }
+  #Projects {
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
 
   .flex-col.md\:flex-row {
     flex-direction: column; /* Verander de flex-direction naar column voor kleinere schermen */
@@ -120,5 +123,12 @@ button:focus-visible {
     max-width: 10vw; /* Pas de maximale breedte van de logo's aan */
     height: auto; /* Laat de hoogte automatisch aanpassen om de aspectverhouding te behouden */
     margin-bottom: 2vw; /* Voeg wat ruimte onder de logo's toe */
+  }
+  .Footer {
+    padding-top: 5vw; /* Voeg wat ruimte boven de footer toe */
+    padding-bottom: 5vw; /* Voeg wat ruimte onder de footer toe */
+  }
+  .h-12 {
+    height: 3rem; /* Verklein de hoogte van de footer */
   }
 }
