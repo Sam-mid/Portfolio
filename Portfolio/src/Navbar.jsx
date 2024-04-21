@@ -10,9 +10,6 @@ const Navbar = () => {
             </div>
             <ul className="mt-4 md:mt-0 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                 <li>
-                    <Link to="/" className="text-black font-bold hover:text-gray-300">Home</Link>
-                </li>
-                <li>
                     <a href="#aboutme" className="text-black font-bold hover:text-gray-300">OverMij</a>
                 </li>
                 <li>
