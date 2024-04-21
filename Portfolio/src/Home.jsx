@@ -3,9 +3,22 @@ import MijnFoto from '/src/assets/img/MijnFoto.png';
 import InteractieOntwerp from '/src/assets/img/InteractieOntwerp.png';
 import FullStack from '/src/assets/img/FullStack.png';
 import PlaylistName from '/src/assets/img/PlaylistName.png';
+
+import PhotoShop from '/src/assets/Logo\'s/PhotoShop_logo.svg';
+import Illustrator from '/src/assets/Logo\'s/Illustrator_logo.svg';
+import InDesign from '/src/assets/Logo\'s/InDesign_logo.svg';
+import Blender from '/src/assets/Logo\'s/Blender_logo.svg';
+import Unity from '/src/assets/Logo\'s/Unity_logo.svg';
+import HTML from '/src/assets/Logo\'s/HTML_logo.svg';
+import CSS from '/src/assets/Logo\'s/CSS_logo.svg';
+import JavaScript from '/src/assets/Logo\'s/JavaScript_logo.svg';
+import ReactLogo from '/src/assets/Logo\'s/React_logo.svg';
+import PHP from '/src/assets/Logo\'s/PHP_logo.svg';
+
 import Project1 from "./projecten/Project1.jsx";
 import Project2 from "./projecten/Project2.jsx";
 import Project3 from "./projecten/Project3.jsx";
+
 
 const Home = () => {
     const [selectedProject, setSelectedProject] = useState(null);
@@ -60,16 +73,16 @@ const Home = () => {
                         </p>
                         <p className="text-xl font-bold mb-4">Ik ben bekend met:</p>
                         <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10">
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/PhotoShop_logo.svg" alt="Photoshop logo" title="Photoshop"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/Illustrator_logo.svg" alt="Illustrator logo" title="Illustrator"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/InDesign_logo.svg" alt="InDesign logo" title="InDesign"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/Blender_logo.svg" alt="Blender logo" title="Blender"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/Unity_logo.svg" alt="Unity logo" title="Unity"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/HTML_logo.svg" alt="HTML logo" title="HTML"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/CSS_logo.svg" alt="CSS logo" title="CSS"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/JavaScript_logo.svg" alt="JavaScript logo" title="JavaScript"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/React_logo.svg" alt="React logo" title="React"/>
-                            <img className="logo mb-4 md:mb-0 mr-4" src="/src/assets/Logo's/PHP_logo.svg" alt="PHP logo" title="PHP"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={PhotoShop} alt="Photoshop logo" title="Photoshop"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={Illustrator} alt="Illustrator logo" title="Illustrator"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={InDesign} alt="InDesign logo" title="InDesign"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={Blender} alt="Blender logo" title="Blender"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={Unity} alt="Unity logo" title="Unity"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={HTML} alt="HTML logo" title="HTML"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={CSS} alt="CSS logo" title="CSS"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={JavaScript} alt="JavaScript logo" title="JavaScript"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={ReactLogo} alt="React logo" title="React"/>
+                            <img className="logo mb-4 md:mb-0 mr-4" src={PHP} alt="PHP logo" title="PHP"/>
                         </div>
                     </div>
                 </div>
