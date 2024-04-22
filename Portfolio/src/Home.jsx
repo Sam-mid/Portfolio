@@ -51,7 +51,7 @@ const Home = () => {
                         </p>
                         <p className="text-xl mb-4">
                             Ik ben geïnteresseerd in het volledige creatieve proces, van ontwerp tot eindproduct. Met
-                            mijn achtergrond als vormgever en mijn kennis als developer breng ik een gevarieerde blik op
+                            mijn vooropleiding als vormgever en mijn kennis als developer breng ik een gevarieerde blik op
                             elk project.
                         </p>
                         <p className="text-xl mb-4">
@@ -73,8 +73,8 @@ const Home = () => {
                         <h2 className="text-3xl font-bold mb-4">Ervaring</h2>
                         <p className="text-xl mb-8">
                             Aan het eind van 2023 heb ik mijn propedeuse gehaald. Ik heb een MBO-diploma als
-                            mediavormgever en 1,5 jaar ervaring als 3D designer in de VR sector.
-                            verdere informatie over mijn ervaring is te vinden op mijn <a href="https://www.linkedin.com/in/sam-middendorp-890a1720a/">LinkedIn</a>.
+                            mediavormgever en 1,5 jaar ervaring als 3D designer in de VR sector.<br/>
+                            Verdere informatie over mijn ervaring is te vinden op mijn <a href="https://www.linkedin.com/in/sam-middendorp-890a1720a/">LinkedIn</a>.
                         </p>
                         <p className="text-xl font-bold mb-4">Ik ben bekend met:</p>
                         <div className="flex flex-wrap items-center justify-center mt-4 md:mt-10 md:space-x-4">
@@ -102,8 +102,7 @@ const Home = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                         <div className="rounded-2xl p-4 hover:scale-105" onClick={() => handleProjectClick('Project1')}>
-                            <h3 className="text-lg font-bold mb-2 text-center">Interactie Ontwerp voor
-                                opdrachtgever</h3>
+                            <h3 className="text-lg font-bold mb-2 text-center">Interactie Ontwerp</h3>
                             <img src={InteractieOntwerp} alt="Interactie Ontwerp"
                                  className="w-full h-80 object-cover rounded-2xl drop-shadow-xl"/>
                         </div>

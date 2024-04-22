@@ -16,11 +16,13 @@ const Project2 = ({ closeModal }) => {
             <h2 className="text-3xl text-center font-bold mt-10 md:mb-24">Project 2</h2>
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-around items-center">
                 <div className="w-full md:w-1/2 px-4 order-2 md:order-1">
-                    <p className="text-lg mt-10 mb-4">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-                        id est laborum."
+                    <p className="text-lg mt-10 mb-4">Ook dit is een schoolproject waarin de opdracht was om een
+                        volledige webservice te maken. Met eigen front/back-end. Ik heb in dit project een website
+                        gebouwd met een lijstweergave van voetbalclubs in de regio Den Haag.
+                    </p>
+                    <p className="text-lg mb-4">
+                        De website is compleet met CRUD-functionaliteit en heeft ook nog extra features zoals zoek/
+                        filter functie en pop-up weergave van alle afbeeldingen. De webite staat helaas niet live maar is wel te bekijken in de bijstaande video.
                     </p>
                     <p className="text-lg font-bold mb-4">
                         Dit project is gemaakt met: <br/>
@@ -33,7 +35,8 @@ const Project2 = ({ closeModal }) => {
                         <img className="logo mb-4 md:mb-0" src={PHP} alt="PHP logo" title="PHP"/>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10" style={{display: 'flex', justifyContent: 'center',}}>
+                <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10"
+                     style={{display: 'flex', justifyContent: 'center',}}>
                     <iframe
                         className={"rounded-2xl drop-shadow-2xl hover:scale-105"}
                         width="560" // Breedte van de video
