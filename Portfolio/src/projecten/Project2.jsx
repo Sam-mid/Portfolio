@@ -35,9 +35,10 @@ const Project2 = ({ closeModal }) => {
                 </div>
                 <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10" style={{display: 'flex', justifyContent: 'center',}}>
                     <iframe
+                        className={"rounded-2xl drop-shadow-2xl hover:scale-105"}
                         width="560" // Breedte van de video
                         height="315" // Hoogte van de video
-                        src="https://www.youtube.com/embed/RowR2WbQ8cQ" // Vervang VIDEO_ID door de ID van de YouTube-video die je wilt insluiten
+                        src="https://www.youtube.com/embed/" // Vervang VIDEO_ID door de ID van de YouTube-video die je wilt insluiten
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
