@@ -3,6 +3,7 @@ import InteractieOntwerp from '/src/assets/img/InteractieOntwerp.png';
 import InDesign from '/src/assets/Logo\'s/InDesign_logo.svg';
 import Illustrator from '/src/assets/Logo\'s/Illustrator_logo.svg';
 import XDlogo from "/src/assets/Logo\'s/Xd_logo.svg";
+import InteractiePDF from '/src/assets/pdf/Sam-Middendorp-interactieontwerp.pdf';
 
 
 const Project1 = ({ closeModal }) => {
@@ -28,7 +29,10 @@ const Project1 = ({ closeModal }) => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10">
-                    <img src={InteractieOntwerp} alt="Profielfoto" className="w-full h-auto drop-shadow-2xl rounded-2xl"/>
+
+                    <a href={InteractiePDF} target="_blank" rel="noopener noreferrer ">
+                        <img src={InteractieOntwerp} alt="Voorbeeld" className="w-full h-auto drop-shadow-2xl rounded-2xl hover:scale-105"/>
+                    </a>
                 </div>
             </div>
         </section>

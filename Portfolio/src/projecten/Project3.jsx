@@ -27,7 +27,9 @@ const Project3 = ({ closeModal }) => {
                     </div>
                 </div>
                 <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10">
-                    <img src={PlaylistName} alt="Profielfoto" className="w-full h-auto drop-shadow-2xl rounded-2xl"/>
+                    <a href="https://playlist-name-generator-2tabk.ondigitalocean.app/" target="_blank" rel="noopener noreferrer ">
+                        <img src={PlaylistName} alt="Voorbeeld" className="w-full h-auto drop-shadow-2xl rounded-2xl hover:scale-105"/>
+                    </a>
                 </div>
             </div>
         </section>

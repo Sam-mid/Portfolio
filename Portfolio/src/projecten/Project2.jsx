@@ -33,8 +33,17 @@ const Project2 = ({ closeModal }) => {
                         <img className="logo mb-4 md:mb-0" src={PHP} alt="PHP logo" title="PHP"/>
                     </div>
                 </div>
-                <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10">
-                    <img src={FullStack} alt="Profielfoto" className="w-full h-auto drop-shadow-2xl rounded-2xl"/>
+                <div className="w-full md:w-1/2 px-4 order-1 md:order-2 mt-10" style={{display: 'flex', justifyContent: 'center',}}>
+                    <iframe
+                        width="560" // Breedte van de video
+                        height="315" // Hoogte van de video
+                        src="https://www.youtube.com/embed/RowR2WbQ8cQ" // Vervang VIDEO_ID door de ID van de YouTube-video die je wilt insluiten
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                    ></iframe>
+
                 </div>
             </div>
         </section>
@@ -42,4 +51,3 @@ const Project2 = ({ closeModal }) => {
 };
 
 export default Project2;
-
