@@ -18,15 +18,17 @@ const Project1 = ({ closeModal }) => {
                         Het eerste onderdeel hiervan was het maken van een interactieontwerp.
                         Dit document legt de ontwerpfase van begin tot eind vast en is compleet met user stories,
                         sitemap, test met de opdrachtgever, wireframes en styleguide.
-                        Dit soort opdracht is echt waar mijn interesse ligt,
-                        vooral omdat ik hier mijn ontwerp ervaring en technische kennis kan combineren.
+                    </p>
+                    <p className="text-lg mb-4">
+                        Dit soort opdracht is echt waar mijn interesse ligt, vooral omdat ik hier mijn ontwerpervaring  en technische kennis kan combineren. <br/>
                     </p>
                     <p className="text-lg font-bold mb-4">
                         Dit project is gemaakt met: <br/>
                     </p>
                     <div className="flex flex-wrap items-center mt-4">
                         <img className="logo mb-4 md:mb-0" src={InDesign} alt="InDesign logo" title="InDesign"/>
-                        <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo" title="Illustrator"/>
+                        <img className="logo mb-4 md:mb-0" src={Illustrator} alt="Illustrator logo"
+                             title="Illustrator"/>
                         <img className="logo mb-4 md:mb-0" src={XDlogo} alt="XD logo" title="XD"/>
                     </div>
                 </div>
