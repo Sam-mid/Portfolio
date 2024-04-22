@@ -36,7 +36,7 @@ const Project1 = ({ closeModal }) => {
 
                     <a href={InteractiePDF} target="_blank" rel="noopener noreferrer ">
                         <img src={InteractieOntwerp} alt="Voorbeeld" className="w-full h-auto drop-shadow-2xl rounded-2xl hover:scale-105"/>
-                        <p className="text-center text-lg font-bold mt-4">Klik op de afbeelding om naar het interactie ontwerp</p>
+                        <p className="text-center text-lg font-bold mt-4">Klik op de afbeelding om naar het interactie ontwerp te gaan.</p>
                     </a>
                 </div>
             </div>
