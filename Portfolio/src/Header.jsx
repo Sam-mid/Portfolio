@@ -2,8 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import GradientTextures  from '/src/assets/img/GradientTextures.jpg';
-
+import GradientTextures from '/src/assets/img/GradientTextures.jpg';
 
 const Header = ({ modelPath }) => {
     const containerRef = useRef();
@@ -14,7 +13,7 @@ const Header = ({ modelPath }) => {
 
         // Renderer
         renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight * 0.90);
+        renderer.setSize(window.innerWidth, window.innerHeight );
         container.appendChild(renderer.domElement);
 
         // Camera
@@ -25,7 +24,6 @@ const Header = ({ modelPath }) => {
 
         // Scene
         const scene = new THREE.Scene();
-        scene.background = new THREE.Color(0x222222);
         const gradientTexture = new THREE.TextureLoader().load(GradientTextures);
         scene.background = gradientTexture;
 
@@ -68,9 +66,19 @@ const Header = ({ modelPath }) => {
         };
     }, [modelPath]);
 
-    return <div ref={containerRef} />;
+    // Scrollfunctie naar sectie #aboutme
+    const handleScrollToAbout = () => {
+        document.getElementById('aboutme').scrollIntoView({ behavior: 'smooth' });
+    };
+
+    return (
+        <header>
+            <div ref={containerRef} />
+            <div className="absolute bottom-52 left-1/2 transform -translate-x-1/2 z-50">
+                <button onClick={handleScrollToAbout} className="px-6 py-4 bg-green-500 text-white font-bold rounded-2xl shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50">Naar de site</button>
+            </div>
+        </header>
+    );
 };
 
 export default Header;
-
-
