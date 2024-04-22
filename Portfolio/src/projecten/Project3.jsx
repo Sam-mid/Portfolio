@@ -9,11 +9,7 @@ const Project3 = ({ closeModal }) => {
             <h2 className="text-3xl text-center font-bold mt-10 md:mb-24">Ai Playlist Name generator</h2>
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-around items-center">
                 <div className="w-full md:w-1/2 px-4 order-2 md:order-1">
-                    <p className="text-lg mt-10 mb-4">"Ook dit was een schoolproject, Waarin ik gebruik moesten maken van de API van OpenAi om een website te maken met een taalmodel.
-                        Mijn uiteindelijke project is een website die namen genereerd voor je spotify playlist.
-                        Dit gebeurt op basis van een prompt in de code.
-                        Ook heb ik gebruik gemaakt van de Spotify API om actuele muziekgenres op te halen op de website.
-                        De volledige code van het project vind je op mijn <a href="https://github.com/Sam-mid/AI-PlaylistName-Generator">GitHub pagina</a>.
+                    <p className="text-lg mt-10 mb-4">Dit was een schoolproject, waarin ik gebruik heb gemaakt van de API van OpenAi om een website te maken met een AI-taalmodel. Mijn uiteindelijke project is een website die namen genereerd voor je Spotify playlist. Dit gebeurt op basis van een prompt in de code. Ook heb ik gebruik gemaakt van de Spotify API om actuele muziekgenres op te halen voor op de website. De volledige code van het project vind je op mijn <a href="https://github.com/Sam-mid/AI-PlaylistName-Generator">GitHub pagina</a>.
                     </p>
                     <p className="text-lg font-bold mb-4">
                         Dit project is gemaakt met: <br/>
