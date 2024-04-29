@@ -13,7 +13,7 @@ const Project2 = ({ closeModal }) => {
     return (
         <section id="project1" className="flex flex-col justify-center items-center bg-white min-h-screen relative">
             <span className="absolute top-0 right-0 cursor-pointer text-3xl m-4" onClick={closeModal}>&times;</span>
-            <h2 className="text-3xl text-center font-bold mt-10 md:mb-24">Project 2</h2>
+            <h2 className="text-3xl text-center font-bold mt-10 md:mb-24">Full Stack project</h2>
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-around items-center">
                 <div className="w-full md:w-1/2 px-4 order-2 md:order-1">
                     <p className="text-lg mt-10 mb-4">Ook dit is een schoolproject waarin de opdracht was om een
@@ -41,7 +41,7 @@ const Project2 = ({ closeModal }) => {
                         className={"rounded-2xl drop-shadow-2xl hover:scale-105"}
                         width="560" // Breedte van de video
                         height="315" // Hoogte van de video
-                        src="https://www.youtube.com/embed/" // Vervang VIDEO_ID door de ID van de YouTube-video die je wilt insluiten
+                        src="https://www.youtube.com/embed/lYcNxmSLAio" // Vervang VIDEO_ID door de ID van de YouTube-video die je wilt insluiten
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
