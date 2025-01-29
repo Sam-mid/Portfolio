@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'KeeponTruckin';
+  src: url('../src/assets/fonts/KeeponTruckin.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -5,6 +5,9 @@ export default {
     './public/index.html', // Scan het HTML-bestand voor klassen
   ],
   theme: {
+    fontFamily: {
+      Bar: ['bar', 'cursive'], // Voeg een fallback toe zoals 'cursive'
+    },
     extend: {},
   },
   plugins: [],

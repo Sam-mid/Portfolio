@@ -132,3 +132,10 @@ button:focus-visible {
     height: 3rem; /* Verklein de hoogte van de footer */
   }
 }
+
+@font-face {
+  font-family: 'Bar';
+  src: url('./assets/fonts/c39hrp24dhtt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

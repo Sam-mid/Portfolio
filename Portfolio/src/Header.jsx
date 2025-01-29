@@ -24,8 +24,9 @@ const Header = ({ modelPath }) => {
 
         // Scene
         const scene = new THREE.Scene();
-        const gradientTexture = new THREE.TextureLoader().load(GradientTextures);
-        scene.background = gradientTexture;
+        // const gradientTexture = new THREE.TextureLoader().load(GradientTextures);
+        // scene.background = gradientTexture;
+
 
         // Lichtbron
         const light = new THREE.HemisphereLight(0xffffff, 0x080820, 4);
@@ -75,7 +76,8 @@ const Header = ({ modelPath }) => {
         <header>
             <div ref={containerRef} />
             <div className="absolute bottom-52 left-1/2 transform -translate-x-1/2 z-50">
-                <button onClick={handleScrollToAbout} className="px-6 py-4 bg-green-500 text-white font-bold rounded-2xl shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50">Naar de site</button>
+                {/*<button onClick={handleScrollToAbout} className="px-6 py-4 bg-green-500 text-white font-bold rounded-2xl shadow-md hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-opacity-50">Naar de site</button>*/}
+                <h1 className="font-Bar font-extrabold bg-gradient-to-b from-white to-white bg-clip-text text-transparent"> Under Construction</h1>
             </div>
         </header>
     );
